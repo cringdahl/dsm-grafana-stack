@@ -1,0 +1,13 @@
+# we don't want to commit service created files, now, do we
+syslog-ng/*
+loki/*
+grafana/*
+
+# we love docs
+!README.md
+
+# don't commit this in progress file!
+compose-old.yaml
+
+# don't commit this DSM dir
+@eaDir/
